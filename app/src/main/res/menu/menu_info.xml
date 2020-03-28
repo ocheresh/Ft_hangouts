@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/send_sms"
+        android:orderInCategory="1"
+        android:icon="@drawable/sms_send"
+        android:title="Відправити СМС"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/call"
+        android:orderInCategory="2"
+        android:icon="@drawable/call"
+        android:title="Зробити виклик"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/edit"
+        android:orderInCategory="3"
+        android:icon="@drawable/edit"
+        android:title="Редагувати"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="4"
+        android:icon="@drawable/delete"
+        android:title="Видалити"
+        app:showAsAction="ifRoom"/>
+
+</menu>
